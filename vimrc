@@ -132,6 +132,14 @@ map <Leader>p <esc>:tabprevious<CR>
 map <Leader>m <esc>:tabnext<CR>
 
 
+" Save file
+inoremap <leader>w <esc>:w<cr>
+nnoremap <leader>w <esc>:w<cr>
+
+" Quit without save
+inoremap <leader>q <esc>:q<cr>
+nnoremap <leader>q <esc>:q<cr>
+
 " Show whitespace
 " MUST be inserted BEFORE the colorscheme command
 "autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
